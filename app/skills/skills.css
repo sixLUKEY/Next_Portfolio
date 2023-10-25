@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+.developerGrid{
+    grid-template-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.5rem 0;
+}
+
+.developerGrid > div > p {
+    transition: 0.2s;
+}
+
+.developerGrid > div {
+    align-items: center;
+}
+
+.developerGrid > div > svg {
+    height: 50px;
+    width: 50px;
+}
+
+.developerGrid > div > svg > path {
+    transition: 0.2s;
+}
+
+.developerGrid > div:hover > p {
+    color: white;
+}
+
+.developerGrid > div:hover > svg > path {
+    fill: var(--primary-color);
+}
+
+.developerGrid > div:nth-child(2){
+    grid-column: 3 / 4;
+    grid-row: 1 / 1;
+}
+
+.developerGrid > div:nth-child(3){
+    grid-column: 5 / 6;
+    grid-row: 1 / 1;
+}
+
+.developerGrid > div:nth-child(4){
+    grid-column: 7 / 8;
+    grid-row: 1 / 1;
+}
+
+.developerGrid > div:nth-child(5){
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+
+.developerGrid > div:nth-child(6){
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+}
+
+.developerGrid > div:nth-child(7){
+    grid-column: 5 / 6;
+    grid-row: 2 / 2;
+}
+
+.developerGrid > div:nth-child(8){
+    grid-column: 7 / 8;
+    grid-row: 2 / 2;
+}
+
+.developerGrid > div:nth-child(9){
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+}
+
+.developerGrid > div:nth-child(10){
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
+}
+
+.developerGrid > div:nth-child(11){
+    grid-column: 5 / 6;
+    grid-row: 3 / 3;
+}
+
+.developerGrid > div:nth-child(12){
+    grid-column: 7 / 8;
+    grid-row: 3 / 3;
+}
+
+.divider {
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+
+}
+
+.divider:nth-of-type(2){
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+}
+
+.divider:nth-of-type(3){
+    grid-column: 6 / 7;
+    grid-row: 1 / 4;
+}
+
+span {
+    transition: 0.2s;
+}
+
+section > p > span:hover {
+    color: var(--primary-color);
+}
+
+#wings, #wings > * {
+    transition: 0.2s;
+}
+
+svg:hover > #wings > #lwing {
+    animation: flutter 1s linear infinite;
+}
+
+svg:hover > #wings > #rwing {
+    animation: flutterAlt 1s linear infinite;
+}
+
+#lwing, #rwing{
+    transform-origin: center;
+}
+
+svg:hover > #wings > #lwing > path:nth-child(even){
+    fill: var(--primary-color);
+}
+
+svg:hover > #wings > #lwing > path:nth-child(odd){
+    fill: var(--secondary-color);
+}
+
+svg:hover > #wings > #rwing > path:nth-child(even){
+    fill: var(--primary-color);
+}
+
+svg:hover > #wings > #rwing > path:nth-child(odd){
+    fill: var(--secondary-color);
+}
+
+
+svg:hover > #wings > #cross > path {
+    stroke: var(--secondary-color);
+}
+
+svg:hover > #wings > #pin {
+    animation: bobble 1s linear infinite;
+}
+
+svg:hover > #wings > #halo {
+    animation: bobbleAlt 1s linear infinite;
+}
+
+@keyframes flutter {
+    0%, 100%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        transform: rotateZ(3deg);
+    }
+}
+
+@keyframes flutterAlt {
+    0%, 100%{
+        transform: rotateZ(0deg);
+    }
+    50%{
+        transform: rotateZ(-3deg);
+    }
+}
+
+@keyframes bobble {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+}
+
+@keyframes bobbleAlt {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+}
+
+.skillz{
+    font-family: 'Caveat', cursive;
+}
+
+.designerGrid > div {
+    border: 1px solid var(--accent);
+    transition: 0.2s;
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+
+.designerGrid > div:hover {
+    border-color: var(--primary-color);
+    background-color: var(--primaryAlt);
+}
+
+.designerGrid > div > svg > path {
+    fill: var(--accent);
+}
+
+.blender:hover > svg > path {
+    fill: var(--primary-color);
+}
+
+.blender:hover > svg:nth-child(1) > path:nth-child(2){
+    fill: white !important;
+}
+
+.openai:hover > svg > path {
+    fill: var(--primary-color);
+}
+
+.openai:hover > svg:nth-child(1) > path {
+    fill: white !important;
+}
+
+.figma:hover > svg > path {
+    fill: var(--primary-color);
+}
+
+.figma:hover > svg:nth-child(1) > path {
+    fill: white !important;
+}
+
+.midjourney:hover > svg > path {
+    fill: var(--primary-color);
+}
+
+.midjourney:hover > svg:nth-child(1) > path:nth-child(3) {
+    fill: white !important;
+}
+
+.adobe:hover > svg > * > path {
+    fill: white;
+}
+
+.adobe:hover > svg > * > path:nth-child(2) {
+    fill: var(--primary-color) !important;
+}

@@ -1,0 +1,19 @@
+.workHeading::before {
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 1px;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent);
+}
+
+.workHeading::after {
+    content: url('https://svgshare.com/i/yow.svg');
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
