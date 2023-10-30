@@ -32,16 +32,16 @@ function DeveloperWork() {
             </div>
         </div>
         <div className='flex-1 flex flex-col text-4xl py-6 text-accent'>
-            <div className='border border-accent rounded-md'>
+            <div className='border border-accent rounded-sm p-2'>
                 <p>Shenron's Tiny Trinkets</p>
             </div>
-            <div className='border border-accent'>
+            <div className='border border-accent rounded-sm p-2'>
                 <p>Another Time</p>
             </div>
-            <div className='border border-accent'>
+            <div className='border border-accent rounded-sm p-2'>
                 <p>Javascript shoe store</p>
             </div>
-            <div className='border border-accent'>
+            <div className='border border-accent rounded-sm p-2'>
                 <p>First Portfolio</p>
             </div>
         </div>

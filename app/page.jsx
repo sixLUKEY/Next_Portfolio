@@ -19,16 +19,16 @@ function Home() {
       <Link href={"/about"} className="about hover:bg-tertiary transition text-7xl text-accent hover:text-white">
         About<span className="text-4xl">.me</span>
       </Link>
-      <Link href={"/skills"} className="skills hover:bg-secondary transition text-7xl text-accent hover:text-accent">
+      <Link href={"/skills"} className="skills hover:bg-tertiary transition text-7xl text-accent hover:text-white">
       <span className="text-4xl">my.</span>SKILLS
       </Link>
-      <Link href={"/work"} className="work hover:bg-primary transition text-7xl text-accent hover:text-white">
+      <Link href={"/"} className="work hover:bg-primary transition text-7xl text-accent hover:text-white">
       <span className="text-4xl">my.</span>CV
       </Link>
-      <Link href={"/"} className="experience hover:bg-white transition text-7xl text-accent hover:text-dark">
+      <Link href={"/work"} className="experience hover:bg-white transition text-7xl text-accent hover:text-dark">
       <span className="text-4xl">my.</span>WORK
       </Link>
-      <div className="copyright text-white text-xl">
+      <div className="copyright text-white text-xl text-center">
         Copyright &copy; 2023
         <br />
         Luke Evertson

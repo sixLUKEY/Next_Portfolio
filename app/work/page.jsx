@@ -57,7 +57,6 @@ function Work() {
               stroke-linecap="round"
             />
           </svg>
-
           <div className="flex-1 h-[2px] bg-primary rounded-full"></div>
         </div>
       </div>

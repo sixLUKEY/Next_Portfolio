@@ -8,11 +8,11 @@ function Contact() {
       <Navbar />
       <h1 className="text-white text-[100px]">
         Lets<span className="text-primary">'</span>s get in{" "}
-        <span className=" touch text-transparent hover:text-primary">
+        <span className=" contactFill text-transparent hover:text-primary">
           contact
         </span>{" "}
         <span className="text-5xl text-[#222222]">|</span>{" "}
-        <a href='mailto:marcoslukerojo@gmail.com?subject=Contact%20via%20Portfolio' className="text-[#222222] contact transition">touch</a>
+        <a href='mailto:marcoslukerojo@gmail.com?subject=Contact%20via%20Portfolio' className="text-[#343434] touch transition hover:text-dark">touch</a>
       </h1>
       <form action="" className="flex flex-col gap-3">
         <div className="flex gap-3 flex-1">
