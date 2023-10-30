@@ -3,7 +3,7 @@
     position: absolute;
     width: 95%;
     height: 1px;
-    top: 15%;
+    top: 12.5%;
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--accent);
@@ -12,8 +12,33 @@
 .workHeading::after {
     content: url('https://svgshare.com/i/yow.svg');
     position: absolute;
-    bottom: -25%;
+    bottom: -27.5%;
     left: 50%;
     transform: translateX(-50%);
 }
 
+.developerList::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+  }
+  
+  .developerList::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+  }
+  
+  .developerList::-webkit-scrollbar-thumb:hover {
+    background: orange;
+  }
+
+  .developerList::-webkit-scrollbar-track {
+    background: var(--dark);
+  }
+ 
+  .developerList::-webkit-scrollbar-track-piece{
+    display: none;
+  }
+
+  .developerList::-webkit-scrollbar-corner{
+    display: none;
+  }

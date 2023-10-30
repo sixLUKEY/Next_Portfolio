@@ -32,7 +32,7 @@ function Work() {
           </svg>
           <div className="flex-1 h-[2px] bg-secondary rounded-full"></div>
         </div>
-        <h1 className="text-[120px] text-secondary workHeading relative">
+        <h1 className="text-[140px] text-secondary workHeading relative">
           De<span className="text-primary">Veloper</span>
         </h1>
         <div className="flex-1 flex justify-between items-center gap-3">

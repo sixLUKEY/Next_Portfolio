@@ -31,20 +31,23 @@ function DeveloperWork() {
                 <p className='text-tertiary hover:text-secondary transition'>Html | Javascript | CSS | Vue | Tailwind | Node | Express | mysql | GSAP</p>
             </div>
         </div>
-        <div className='flex-1 flex flex-col text-4xl py-6 text-accent'>
-            <div className='border border-accent rounded-sm p-2'>
+        <ul className='flex-1 flex flex-col gap-2 text-4xl my-6 text-accent overflow-scroll max-h-[16rem] developerList pe-2'>
+            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
                 <p>Shenron's Tiny Trinkets</p>
-            </div>
-            <div className='border border-accent rounded-sm p-2'>
+            </li>
+            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
                 <p>Another Time</p>
-            </div>
-            <div className='border border-accent rounded-sm p-2'>
+            </li>
+            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
                 <p>Javascript shoe store</p>
-            </div>
-            <div className='border border-accent rounded-sm p-2'>
+            </li>
+            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
                 <p>First Portfolio</p>
-            </div>
-        </div>
+            </li>
+            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
+                <p>First Portfolio</p>
+            </li>
+        </ul>
     </section>
   )
 }
