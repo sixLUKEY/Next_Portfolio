@@ -13,20 +13,20 @@ function Home() {
       </div>
       <Hero/>
       <LukeyLogo/>
-      <Link href={"/contact"} className="contact hover:bg-secondary transition">
-        Contact.me
+      <Link href={"/contact"} className="contact hover:bg-secondary transition text-7xl text-accent hover:text-dark">
+        Contact<span className="text-4xl">.me</span>
       </Link>
-      <Link href={"/about"} className="about hover:bg-tertiary transition">
-        About.me
+      <Link href={"/about"} className="about hover:bg-tertiary transition text-7xl text-accent hover:text-white">
+        About<span className="text-4xl">.me</span>
       </Link>
-      <Link href={"/skills"} className="skills hover:bg-secondary transition">
-        my.SKILLS
+      <Link href={"/skills"} className="skills hover:bg-secondary transition text-7xl text-accent hover:text-accent">
+      <span className="text-4xl">my.</span>SKILLS
       </Link>
-      <Link href={"/work"} className="work hover:bg-primary transition">
-        my.WORK
+      <Link href={"/work"} className="work hover:bg-primary transition text-7xl text-accent hover:text-white">
+      <span className="text-4xl">my.</span>CV
       </Link>
-      <Link href={"/"} className="experience hover:bg-white transition">
-        my.XP
+      <Link href={"/"} className="experience hover:bg-white transition text-7xl text-accent hover:text-dark">
+      <span className="text-4xl">my.</span>WORK
       </Link>
       <div className="copyright text-white text-xl">
         Copyright &copy; 2023
