@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import "./work.css";
 import DeveloperWork from "@/components/DeveloperWork";
+import DesignerWork from "@/components/DesignerWork";
 
 function Work() {
   return (
@@ -20,13 +21,13 @@ function Work() {
             <path
               d="M2 19H37"
               stroke="#CDCCCC"
-              stroke-width='2'
+              stroke-width="2"
               stroke-linecap="round"
             />
             <path
               d="M20 37L20 2"
               stroke="#CDCCCC"
-              stroke-width='2'
+              stroke-width="2"
               stroke-linecap="round"
             />
           </svg>
@@ -47,22 +48,21 @@ function Work() {
             <path
               d="M2 19H37"
               stroke="#F99909"
-              stroke-width='2'
+              stroke-width="2"
               stroke-linecap="round"
             />
             <path
               d="M20 37L20 2"
               stroke="#F99909"
-              stroke-width='2'
+              stroke-width="2"
               stroke-linecap="round"
             />
           </svg>
           <div className="flex-1 h-[2px] bg-primary rounded-full"></div>
         </div>
       </div>
-
-      <DeveloperWork/>
-
+      <DeveloperWork />
+      <DesignerWork />
     </main>
   );
 }
