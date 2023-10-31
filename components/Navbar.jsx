@@ -19,16 +19,16 @@ function Navbar() {
             </Link>
         </div>
         <ul className="flex gap-5 items-end text-2xl navLinks">
-          <li>
+          <li className="hover:text-white transition">
             <Link href={"/about"} className={`link ${pathname === '/about' ? 'activeNav' : ''}`}>About.<span className="text-sm">me</span></Link>
           </li>
-          <li>
+          <li className="hover:text-white transition">
             <Link href={"/skills"} className={`link ${pathname === '/skills' ? 'activeNav' : ''}`}><span className="text-sm">my</span>.Skills</Link>
           </li>
-          <li>
+          <li className="hover:text-white transition">
             <Link href={"/work"} className={`link ${pathname === '/work' ? 'activeNav' : ''}`}><span className="text-sm">my</span>.Work</Link>
           </li>
-          <li>
+          <li className="hover:text-white transition">
             <Link href={"/contact"} className={`link ${pathname === '/contact' ? 'activeNav' : ''}`}>Contact.<span className="text-sm">me</span></Link>
           </li>
         </ul>
