@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
 .workHeading::before {
     content: '';
     position: absolute;
@@ -41,4 +43,8 @@
 
   .developerList::-webkit-scrollbar-corner{
     display: none;
+  }
+
+  .heartFigma {
+    font-family: 'Caveat', cursive;
   }
