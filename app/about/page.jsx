@@ -6,9 +6,11 @@ import Navbar from '@/components/Navbar'
 
 function About() {
   return (
-    <main className='text-primary'>
+    <main>
       <Navbar/>
-      About
+      <section className='h-96 bg-primaryalt border border-primary'>
+        
+      </section>
         
     </main>
   )
