@@ -1,10 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
+import WorkList from './WorkList'
 
-const project = {
-    name: "Shenron's Tiny Trinkets",
+const projects = [
+    {
+        name: "Shenron's Tiny Trinkets",
     languages: 'Html | Javascript | CSS | Vue | Tailwind | Node | Express | mysql | GSAP'
-}
+    },
+    {
+        name: "Another Time",
+        languages: 'Html | Javascript | CSS | Vue | Tailwind | Node '
+    }
+]
+
 
 function DeveloperWork() {
   return (
@@ -31,23 +39,7 @@ function DeveloperWork() {
                 <p className='text-tertiary hover:text-secondary transition'>Html | Javascript | CSS | Vue | Tailwind | Node | Express | mysql | GSAP</p>
             </div>
         </div>
-        <ul className='flex-1 flex flex-col gap-2 text-4xl my-6 text-accent overflow-scroll max-h-64 developerList pe-2'>
-            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
-                <p>Shenron's Tiny Trinkets</p>
-            </li>
-            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
-                <p>Another Time</p>
-            </li>
-            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
-                <p>Javascript shoe store</p>
-            </li>
-            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
-                <p>First Portfolio</p>
-            </li>
-            <li className='border border-accent rounded-sm p-2 hover:text-primary hover:border-primary hover:bg-primaryalt transition'>
-                <p>First Portfolio</p>
-            </li>
-        </ul>
+       <WorkList/>
     </section>
   )
 }
