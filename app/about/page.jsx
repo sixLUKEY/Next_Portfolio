@@ -22,7 +22,17 @@ function About() {
         height={300}
         // className='mx-auto'
         />
-        <div className='flex'></div>
+        <div></div>
+        </div>
+        <div className='flex justify-evenly mt-5'>
+          <div></div>
+          <div className=' max-w-lg text-center flex flex-col gap-5 text-white'>
+            <p>An upcoming <span className='text-primary'>web developer</span> and <span className='text-primary'>Ui / Ux designer</span> who prides himself in delivering the user a fun and interactive experience.</p>
+          <p>
+          Making things look nice is most important to me, which is why i love designing User interfaces. Don’t be fooled though, We tackle backend out here too!
+          </p>
+          </div>
+          <div></div>
         </div>
       </section>
         
